@@ -1,0 +1,105 @@
+* {
+  font-family: "Fira Sans", sans-serif;
+  margin: 0%;
+  scroll-behavior: smooth;
+}
+#text > img {
+  width: 20%;
+  height: 20%;
+  border-radius: 25%;
+}
+
+#text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  padding-bottom: 30%;
+  padding-top: 10%;
+}
+
+#text > p {
+  width: 30%;
+  height: 30%;
+  font-size: 2vw;
+}
+
+.blocks > div > img {
+  width: 100%;
+  height: 45%;
+}
+
+.projects {
+  background-color: rgb(239, 236, 236);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10%;
+}
+
+.projects > span {
+  font-size: 4vw;
+  margin: 15px 0px;
+}
+
+.blocks {
+  display: flex;
+  justify-content: space-around;
+}
+
+.blocks > div {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 14%;
+  padding: 10px;
+}
+
+.blocks > div > span {
+  font-size: 1vw;
+}
+
+.blocks > div > p {
+  font-size: 3vw;
+}
+
+.skills > p {
+  font-size: 4vw;
+  margin-bottom: 5%;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(239, 236, 236);
+  padding-top: 5%;
+}
+
+.table > div > img {
+  width: 30%;
+  height: 50%;
+}
+
+.table > div > span {
+  font-size: 1vw;
+}
+
+.table > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
